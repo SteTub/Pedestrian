@@ -1,0 +1,22 @@
+To compile serial version of code:
+```
+make
+```
+To compile parallel version:
+```
+make parallel
+```
+NOTE: Parallel version requires MPI (specific version number to be added soon)
+
+To compile with debug -g flag:
+```
+make debug
+```
+To compile with profiling -pg flag:
+```
+make prof
+```
+To remove object files and executables:
+```
+make clean
+```
