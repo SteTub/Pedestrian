@@ -1,0 +1,26 @@
+To compile:
+```
+make
+```
+To run the program (Linux)
+```
+./pedestrian
+```
+To see the routes of the agents graphically, run using:
+```
+./predestrian -g
+```
+NOTE: The graphical portion is in openGL/GLUT.
+
+NOTE: This code can also be used to graphically display the vision of an agent, i.e. view all the spaces the agent can see.
+To visualise the radar, in file "Agent.cc", in function "radarVision()", uncomment the compiler directives.
+This is required as, thus far, the graphics portion is set up to show either the path of the agent, or what the agent sees, but not both.
+
+To compile with debug flag -g:
+```
+make debug
+```
+To remove executable and object files:
+```
+make clean
+```
